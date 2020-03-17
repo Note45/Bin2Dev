@@ -1,0 +1,48 @@
+.converterContainer {
+  display: grid;
+  grid-template-areas:
+    'binaryText inputBinary'
+    'decimalText decimalOut'
+    'bntConvert bntConvert';
+  grid-gap: 20px;
+  background-color: #cabbe9;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.binaryText {
+  grid-area: binaryText;
+}
+
+.binaryInput {
+  grid-area: inputBinary;
+  background-color: #f1e2ee;
+  font-size: larger;
+  border: none;
+}
+
+.bntConvert{
+  grid-area: bntConvert;
+  border: none;
+  background-color: #c5e3f6;
+  height: 50px;
+  width: 100%;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.bntConvert.bntConvert:hover{
+  background-color: #3d5af1;
+}
+
+.decimalText{
+  grid-area: decimalText;
+}
+
+.decimalOut {
+  grid-area: decimalOut;
+}

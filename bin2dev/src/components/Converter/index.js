@@ -1,12 +1,15 @@
 import React from 'react';
 
+import './styles.css';
+
 function Converter() {
   return(
     <div className='converterContainer'>
-      <p>Binary:</p>
+      <p className='binaryText'>Binary:</p>
       <input type='text' className='binaryInput'></input>
+      <p className='decimalText'>Decimal:</p>
+      <p className='decimalOut'></p>
       <button className='bntConvert'>Convert</button>
-      <p>Decimal:</p>
     </div>
   );
 }
