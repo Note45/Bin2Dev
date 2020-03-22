@@ -25,7 +25,7 @@ and 1's, in any sequence and then displays its decimal equivalent.
   <li>CSS</li>
   <li>Javascript</li>
   <li>React</li>
- </ul 
+ </ul>
 
 ## License
 
