@@ -20,6 +20,7 @@
 .binaryInput {
   grid-area: inputBinary;
   background-color: #f1e2ee;
+  text-align: center;
   font-size: larger;
   border: none;
 }
